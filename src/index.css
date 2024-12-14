@@ -23,7 +23,7 @@
   }
 
   h1 {
-    @apply font-poppins font-bold text-6xl text-teal-200 font-extrabold;
+    @apply font-montserrat font-bold text-6xl text-teal-200 font-extrabold;
   }
 
   p {
@@ -64,15 +64,15 @@
     }
 
     .heading{
-      @apply leading-snug  tracking-wide   max-sm:text-4xl max-xs:text-3xl  max-sm:leading-snug max-md:leading-snug max-xl:leading-snug max-xl:text-6xl max-md:text-5xl text-7xl
+      @apply leading-snug  tracking-wide   max-sm:text-4xl max-xs:text-3xl  max-sm:leading-snug max-md:leading-snug max-xl:leading-snug max-xl:text-6xl max-md:text-5xl text-7xl 
     }
 
     .heading-workflow{
-      @apply leading-tight  tracking-wide   max-sm:text-3xl max-sm:leading-tight max-md:leading-tight max-xl:leading-tight max-xl:text-5xl max-md:text-4xl text-6xl
+      @apply leading-tight  tracking-wide   max-sm:text-3xl max-sm:leading-tight max-md:leading-tight  max-xl:leading-tight max-xl:text-5xl max-md:text-4xl text-6xl
     }
 
     .workflow-group{
-      @apply flex justify-around items-center gap-[100px] max-lg:gap-[50px] pb-5  border-b border-b-[1px] max-md:gap-5 border-b-gray-900 max-md:flex-wrap max-md:text-start
+      @apply flex justify-around items-center gap-[100px] max-lg:gap-[50px] pb-5  border-b border-b-[1px] max-md:gap-5 border-b-gray-700 max-md:flex-wrap max-md:text-start
     }
 
     .workflow-group-content{

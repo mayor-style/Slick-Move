@@ -12,7 +12,8 @@ module.exports = {
       },
       backgroundImage:{
         'hero': "url('./assets/imgs/hero3.jpg')",
-        'workflow':"url('./assets/imgs/workflow.jpg')"
+        'workflow':"url('./assets/imgs/workflow.jpg')",
+        'black-pattern':"url('./assets/imgs/black.jpg')"
       },
       screens:{
         'xs':'480px'
@@ -24,6 +25,9 @@ module.exports = {
       rotate:{
         '-60':'-55deg',
       },
+      fontSize:{
+        'xxs':'8px'
+      }
     }, // Extend themes here if needed
   },
   plugins: [],

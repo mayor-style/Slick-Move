@@ -10,7 +10,7 @@ const NavBar = () => {
       </div>
 
       <div className="logo cursor-pointer">
-        <h2 className=' text-shadow text-4xl max-md:text-center  max-md:text-3xl font-semibold font-syne'><span className='text-6xl max-md:text-5xl font-bold text-gradient'>S</span>lick</h2>
+        <h2 className=' text-shadow-lg text-4xl max-md:text-center  max-md:text-3xl max-sm:text-2xl font-semibold font-syne'><span className='text-6xl max-md:text-5xl max-sm:text-4xl font-bold text-gradient'>S</span>lick</h2>
       </div>
 
       <ul className='text-grey-500 flex max-lg:hidden justify-center items-center gap-10 text-sm'>
