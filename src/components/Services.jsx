@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoArrowUpRight } from "react-icons/go";
-import black from '../assets/imgs/black.jpg'
+import black from '../assets/imgs/waves.jpg'
 
 const Services = () => {
 
@@ -14,7 +14,7 @@ const Services = () => {
     <img src={black} className='object-cover rounded-3xl max-sm:h-[41rem] max-xs:h-[25rem]  max-md:h-[45rem] h-[50rem]  w-full ' alt="" />
 
     {/*CONTENT INSIDE BACKGROUND OVERLAY */}
-    <div className='max-w-full m-auto flex flex-col max-xs:pr-3 max-xs:pl-3 gap-10 p-5 md:p-10 rounded-3xl bg-white/10 sm:min-h-full text-white backdrop-blur-md shadow-xl transition-all z-[2] absolute top-0'>
+    <div className='max-w-full m-auto flex flex-col max-xs:pr-3 max-xs:pl-3 gap-10 p-5 md:p-10 rounded-3xl bg-white/20 sm:min-h-full text-white backdrop-blur-lg shadow-xl transition-all z-[2] absolute top-0'>
       
         <div className="flex justify-between gap-[200px] max-md:flex-wrap max-md:gap-5 max-md:justify-center max-md:text-center max-lg:gap-[100px] items-center">
             <h1 className='tracking-wide font-montserrat leading-normal max-lg:text-5xl max-sm:text-4xl'>OUR <br />SERVICES</h1>

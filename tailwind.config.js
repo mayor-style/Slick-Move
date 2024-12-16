@@ -12,7 +12,7 @@ module.exports = {
       },
       backgroundImage:{
         'hero': "url('./assets/imgs/hero.jpg')",
-        'workflow':"url('./assets/imgs/black.jpg')",
+        'workflow':"url('./assets/imgs/workflow.jpg')",
         'black-pattern':"url('./assets/imgs/black.jpg')"
       },
       screens:{
