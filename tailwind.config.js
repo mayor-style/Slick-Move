@@ -11,8 +11,8 @@ module.exports = {
         syne:['Syne', 'sans-serif'],
       },
       backgroundImage:{
-        'hero': "url('./assets/imgs/hero3.jpg')",
-        'workflow':"url('./assets/imgs/workflow.jpg')",
+        'hero': "url('./assets/imgs/hero.jpg')",
+        'workflow':"url('./assets/imgs/black.jpg')",
         'black-pattern':"url('./assets/imgs/black.jpg')"
       },
       screens:{
