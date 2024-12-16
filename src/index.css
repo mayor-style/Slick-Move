@@ -63,6 +63,10 @@
       text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     }
 
+    .transition-alll {
+      @apply transition-all duration-500 ease-in-out;
+  }
+
     .heading{
       @apply leading-snug  tracking-wide   max-sm:text-4xl max-xs:text-3xl  max-sm:leading-snug max-md:leading-snug max-xl:leading-snug max-xl:text-6xl max-md:text-5xl text-7xl 
     }

@@ -4,17 +4,17 @@ import black from '../assets/imgs/black.jpg'
 
 const Services = () => {
 
-    const services = ['UI/UX DESIGN', 'Branding', 'App Design', 'Logo Design']
+    const services = [ 'UI/UX DESIGN', 'Web Development',  'App Development', 'Custom Solutions']
 
   return (
-    <section className=' pt-[70px] md:pt-[100px] sm:pr-6 sm:pl-6 pb-[300px] pr-4 pl-4'>
+    <section className=' pt-[70px] md:pt-[100px] sm:pr-6 sm:pl-6 pb-[100px] pr-4 pl-4'>
 
     {/*BACKGROUND OVERLAY */}
-    <div className="relative m-auto min-h-[100vh] max-w-[1100px] pb-10 rounded-3xl  ">
+    <div className="relative m-auto min-h-[100vh] max-w-[1100px] pb-10 rounded-3xl shadow-md ">
     <img src={black} className='object-cover rounded-3xl max-sm:h-[41rem] max-xs:h-[25rem]  max-md:h-[45rem] h-[50rem]  w-full ' alt="" />
 
     {/*CONTENT INSIDE BACKGROUND OVERLAY */}
-    <div className='max-w-full m-auto flex flex-col max-xs:pr-3 max-xs:pl-3 gap-10 p-5 md:p-10 rounded-3xl bg-white/5 sm:min-h-full text-white backdrop-blur-md shadow-xl transition-all z-[2] absolute top-0'>
+    <div className='max-w-full m-auto flex flex-col max-xs:pr-3 max-xs:pl-3 gap-10 p-5 md:p-10 rounded-3xl bg-white/10 sm:min-h-full text-white backdrop-blur-md shadow-xl transition-all z-[2] absolute top-0'>
       
         <div className="flex justify-between gap-[200px] max-md:flex-wrap max-md:gap-5 max-md:justify-center max-md:text-center max-lg:gap-[100px] items-center">
             <h1 className='tracking-wide font-montserrat leading-normal max-lg:text-5xl max-sm:text-4xl'>OUR <br />SERVICES</h1>
@@ -31,7 +31,7 @@ const Services = () => {
         <div className="flex flex-col md:pt-10 lg:gap-7">
         {
             services.map((x, i)=>{
-                return <div key={i} className="flex items-center cursor-pointer group  pt-5 pr-3 pl-4 hover:rounded-xl hover:bg-black transition transition-all font-semibold duration-900 ease justify-between sm:pb-10 pb-7 border-b border-b-1 border-b-gray-500">
+                return <div key={i} className="flex items-center cursor-pointer group  pt-5 pr-3 pl-4 hover:rounded-xl hover:bg-black transition transition-all font-semibold duration-900ms ease justify-between sm:pb-10 pb-7 border-b border-b-1 border-b-gray-500">
                 <p className='text-2xl xs:text-3xl sm:text-4xl lg:text-5xl'>{x}</p>
                 <div className="text-2xl  xs:text-3xl sm:text-4xl lg:text-5xl font-semibold group-hover:bg-gradient group-hover:p-2 rounded-xl">
                     <GoArrowUpRight/>

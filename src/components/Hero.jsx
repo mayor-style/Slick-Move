@@ -1,14 +1,21 @@
 import React from 'react'
 import { GoArrowUpRight } from "react-icons/go";
+import {motion} from 'framer-motion'
 
 const Hero = () => {
   return (
     <section className=' max-sm:pt-[120px] max-sm:pb-[100px] sm:min-h-screen flex  md:pt-[100px] sm:pt-[50px] sm:pb-[50px] flex-col gap-5 justify-center items-center text-center text-white bg-center bg-cover bg-hero '>
-      <div className="">
-        <h1 className='pr-[10px] italic pl-[10px] heading'><span className=' font-bold text-9xl max-xl:text-8xl max-md:text-7xl max-sm:text-6xl text-gradient font-syne text-shadow-lg'>S</span>LICK MOVES
+      <motion.div className=""
+      initial={{y:100, opacity:0}}
+
+      animate={{y:0, opacity:1}}
+
+      transition={{duration:3, ease:'easeOut'}}
+      >
+        <h1 className='pr-[10px]  pl-[10px] heading'><span className=' font-bold text-9xl max-xl:text-8xl max-md:text-7xl max-sm:text-6xl text-gradient font-syne text-shadow-lg'>S</span>LICK MOVES
         <br /> SMARTER <span className='text-gradient '>SOLUTIONS</span>
         </h1>
-      </div>
+      </motion.div>
 
       {/* BUttom texts */}
       <div className="flex justify-between max-sm:justify-center max-sm:flex-wrap-reverse max-lg:pr-[20px] max-lg:pl-[20px] pr-[50px] pl-[50px] items-center ">
